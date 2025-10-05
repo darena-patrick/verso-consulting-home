@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verso Consulting | End-to-End Cloud Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(20px, -20px); }
+        }
+        .animate-float {
+            animation: float 20s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Navbar -->
+    <nav id="navbar" class="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-lg shadow-md py-4 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+            <div class="flex items-center gap-2 text-xl font-bold">
+                <span class="text-4xl text-green-500 font-extrabold">V</span>
+                <span class="tracking-tight text-black">VERSO CONSULTING</span>
+            </div>
+            <div class="hidden md:flex gap-8">
+                <a href="#home" class="text-gray-800 font-medium hover:text-green-500 transition-colors">Home</a>
+                <a href="#services" class="text-gray-800 font-medium hover:text-green-500 transition-colors">Services</a>
+                <a href="#approach" class="text-gray-800 font-medium hover:text-green-500 transition-colors">Approach</a>
+                <a href="#about" class="text-gray-800 font-medium hover:text-green-500 transition-colors">About</a>
+                <a href="#contact" class="text-gray-800 font-medium hover:text-green-500 transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center bg-gradient-to-br from-green-50 via-white to-gray-50 relative overflow-hidden pt-20">
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-green-100/40 blur-3xl animate-float"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 px-4 py-2 bg-green-100 border border-green-200 rounded-full text-green-700 font-semibold text-sm mb-6">
+                    <span>🚀</span>
+                    <span>Strategy to Implementation</span>
+                </div>
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight text-gray-600">
+                    Enterprise <span class="text-green-500">Cloud & Identity</span> Solutions
+                </h1>
+                <p class="text-xl text-gray-800 mb-8 leading-relaxed max-w-2xl">
+                    End-to-end consulting from architecture and design to implementation and automation. Transform your cloud infrastructure with expertise that spans the full stack.
+                </p>
+                
+                <div class="flex flex-wrap gap-6 mb-8">
+                    <div class="flex items-center gap-2 text-gray-800">
+                        <span class="text-green-500 font-bold">✓</span>
+                        <span class="font-medium">Security & Compliance</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-gray-800">
+                        <span class="text-green-500 font-bold">✓</span>
+                        <span class="font-medium">Design to Deployment</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-gray-800">
+                        <span class="text-green-500 font-bold">✓</span>
+                        <span class="font-medium">Azure Certified</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap gap-4">
+                    <a href="#contact" class="px-8 py-4 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-full font-semibold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+                        Start a Project
+                    </a>
+                    <a href="#services" class="px-8 py-4 bg-white border-2 border-gray-200 text-gray-800 rounded-full font-semibold hover:border-green-500 hover:shadow-lg transition-all duration-300">
+                        View Services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <div class="text-green-500 font-semibold text-sm uppercase tracking-widest mb-3">CORE SERVICES</div>
+                <h2 class="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight text-gray-600">Full-Stack Cloud Expertise</h2>
+                <p class="text-xl text-gray-800 max-w-3xl mx-auto">
+                    Comprehensive technical services covering architecture, security, data, automation, and user experience
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Service 1 -->
+                <div class="p-8 bg-gradient-to-br from-gray-50 to-white rounded-3xl border-2 border-gray-100 hover:border-green-500 hover:-translate-y-3 transition-all duration-300 hover:shadow-2xl group">
+                    <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                        <span class="text-3xl">🔐</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-900">Identity & Security Architecture</h3>
+                    <p class="text-gray-700 mb-4 leading-relaxed">Modern authentication, zero-trust frameworks, and security compliance. Design and implement enterprise IAM with Azure AD/Entra ID, Auth0, and SSO solutions including SOC 2 and HIPAA compliance.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Azure AD/Entra ID</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Auth0</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Zero-Trust</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">SOC 2</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">HIPAA</span>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="p-8 bg-gradient-to-br from-gray-50 to-white rounded-3xl border-2 border-gray-100 hover:border-green-500 hover:-translate-y-3 transition-all duration-300 hover:shadow-2xl group">
+                    <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                        <span class="text-3xl">☁️</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-900">Azure Cloud Architecture</h3>
+                    <p class="text-gray-700 mb-4 leading-relaxed">End-to-end Azure solutions including AKS, infrastructure design, cost optimization, and cloud migration strategy. Scale from startup to enterprise with governance built-in.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Azure Solutions</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">AKS</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Cost Optimization</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Migration</span>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="p-8 bg-gradient-to-br from-gray-50 to-white rounded-3xl border-2 border-gray-100 hover:border-green-500 hover:-translate-y-3 transition-all duration-300 hover:shadow-2xl group">
+                    <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                        <span class="text-3xl">📊</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-900">Data Engineering & APIs</h3>
+                    <p class="text-gray-700 mb-4 leading-relaxed">Modern data platforms with Databricks, Synapse, and real-time pipelines. Design scalable APIs and integration patterns that power enterprise data workflows and analytics.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Databricks</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">REST/GraphQL</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Data Pipelines</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Synapse</span>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="p-8 bg-gradient-to-br from-gray-50 to-white rounded-3xl border-2 border-gray-100 hover:border-green-500 hover:-translate-y-3 transition-all duration-300 hover:shadow-2xl group">
+                    <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                        <span class="text-3xl">⚙️</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-900">DevOps & Automation</h3>
+                    <p class="text-gray-700 mb-4 leading-relaxed">Infrastructure as Code, CI/CD pipelines, and container orchestration. Automate everything from deployment to monitoring with Terraform, GitHub Actions, and Kubernetes.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Terraform</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Pulumi</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">GitHub Actions</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Kubernetes</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Azure DevOps</span>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="p-8 bg-gradient-to-br from-gray-50 to-white rounded-3xl border-2 border-gray-100 hover:border-green-500 hover:-translate-y-3 transition-all duration-300 hover:shadow-2xl group">
+                    <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                        <span class="text-3xl">💻</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-900">Application Development</h3>
+                    <p class="text-gray-700 mb-4 leading-relaxed">Full-stack development with .NET, React, and modern frameworks. Build scalable web applications, microservices, and cloud-native solutions with clean architecture.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">C# / .NET</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">React</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Vue / NuxtJS</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">TypeScript</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Microservices</span>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="p-8 bg-gradient-to-br from-gray-50 to-white rounded-3xl border-2 border-gray-100 hover:border-green-500 hover:-translate-y-3 transition-all duration-300 hover:shadow-2xl group">
+                    <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                        <span class="text-3xl">🎨</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-900">System & UX Design</h3>
+                    <p class="text-gray-700 mb-4 leading-relaxed">User-centered design from wireframes to high-fidelity prototypes. Design thinking workshops, system architecture diagrams, and intuitive interfaces that users love.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Figma</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Design Systems</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">UX Research</span>
+                        <span class="px-3 py-1 bg-green-50 text-green-700 rounded-full text-sm font-medium">Prototyping</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Approach Section -->
+    <section id="approach" class="py-24 bg-gradient-to-br from-gray-900 to-gray-800 text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-green-500/10 blur-3xl"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight">Complete Solutions, End-to-End</h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                    From discovery and design to implementation and optimization-handling every phase of your project with technical excellence
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center p-6 bg-white/5 rounded-2xl border border-white/10 hover:bg-white/10 hover:border-green-500 transition-all duration-300 hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">1</div>
+                    <h3 class="text-xl font-bold mb-3 text-green-400">Discovery & Strategy</h3>
+                    <p class="text-gray-300 leading-relaxed">Understand your business goals, technical landscape, and challenges through design thinking and stakeholder workshops</p>
+                </div>
+
+                <div class="text-center p-6 bg-white/5 rounded-2xl border border-white/10 hover:bg-white/10 hover:border-green-500 transition-all duration-300 hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">2</div>
+                    <h3 class="text-xl font-bold mb-3 text-green-400">Architecture & Design</h3>
+                    <p class="text-gray-300 leading-relaxed">Design scalable solutions with detailed architecture diagrams, security models, and user experience prototypes</p>
+                </div>
+
+                <div class="text-center p-6 bg-white/5 rounded-2xl border border-white/10 hover:bg-white/10 hover:border-green-500 transition-all duration-300 hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">3</div>
+                    <h3 class="text-xl font-bold mb-3 text-green-400">Implementation</h3>
+                    <p class="text-gray-300 leading-relaxed">Build and deploy with hands-on development, infrastructure automation, and rigorous security practices</p>
+                </div>
+
+                <div class="text-center p-6 bg-white/5 rounded-2xl border border-white/10 hover:bg-white/10 hover:border-green-500 transition-all duration-300 hover:-translate-y-2">
+                    <div class="w-14 h-14 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">4</div>
+                    <h3 class="text-xl font-bold mb-3 text-green-400">Optimization</h3>
+                    <p class="text-gray-300 leading-relaxed">Monitor, refine, and scale your solution with performance tuning, cost optimization, and continuous improvement</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-gradient-to-br from-green-50 via-white to-gray-50 relative overflow-hidden">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-green-100/40 rounded-full blur-3xl"></div>
+        
+        <div class="max-w-4xl mx-auto px-6 relative z-10">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight text-gray-600">About Verso Consulting</h2>
+                <p class="text-xl text-gray-800 leading-relaxed mb-6">
+                    Verso Consulting delivers specialized technical consulting for organizations modernizing their cloud infrastructure, security, and data platforms. With expertise spanning architecture, security, design, and development, we handle projects end-to-end.
+                </p>
+                <p class="text-xl text-gray-800 leading-relaxed">
+                    Every engagement combines strategic thinking with hands-on implementation - from initial design workshops to production deployment and beyond.
+                </p>
+            </div>
+
+           <div class="mt-16 pt-12 border-t-2 border-gray-300">
+  <div class="bg-white p-10 rounded-3xl shadow-xl max-w-2xl mx-auto">
+    <!-- Photo -->
+    <div class="w-32 h-32 mx-auto mb-6 rounded-full shadow-lg overflow-hidden bg-gradient-to-br from-green-500 to-green-600">
+      <img
+        src="patrick.png"
+        alt="Patrick Schiess"
+        class="w-full h-full object-cover"
+      />
+    </div>
+    
+    <h3 class="text-3xl font-bold mb-2 text-center text-gray-600">Patrick Schiess</h3>
+    <p class="text-green-600 font-semibold text-lg mb-6 text-center">Founder & Principal Architect</p>
+    
+    <p class="text-gray-700 leading-relaxed mb-4">
+      Enterprise architect with 10+ years building secure, scalable cloud solutions for healthcare and technology companies. Specializing in cloud identity, Azure architecture, data engineering, and full-stack development with a design-thinking approach.
+    </p>
+    <p class="text-gray-700 leading-relaxed mb-6">
+      Published author on OAuth 2.0 and information security, with deep expertise in modern authentication, zero-trust architecture, and regulatory compliance (HIPAA, SOC 2).
+    </p>
+    
+    <div class="pt-6 border-t border-gray-300">
+      <div class="flex flex-wrap justify-center gap-3">
+        <span class="px-4 py-2 bg-gradient-to-r from-green-100 to-green-50 border border-green-200 text-green-700 rounded-full text-sm font-semibold">
+          🏆 Azure Solutions Architect Expert
+        </span>
+        <span class="px-4 py-2 bg-gradient-to-r from-green-100 to-green-50 border border-green-200 text-green-700 rounded-full text-sm font-semibold">
+          🏆 Azure Security Engineer
+        </span>
+        <span class="px-4 py-2 bg-gradient-to-r from-green-100 to-green-50 border border-green-200 text-green-700 rounded-full text-sm font-semibold">
+          🏆 HL7 FHIR Advanced Developer
+        </span>
+        <span class="px-4 py-2 bg-gradient-to-r from-green-100 to-green-50 border border-green-200 text-green-700 rounded-full text-sm font-semibold">
+          🏆 MuleSoft Certified Developer
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-gray-900 text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-96 h-96 bg-green-500/10 rounded-full blur-3xl animate-pulse"></div>
+        
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-6 tracking-tight">Let's Build Something Great</h2>
+            <p class="text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
+                Ready to modernize your infrastructure? Let's discuss your technical challenges and architect a solution.
+            </p>
+            <a href="mailto:patrick@versoconsulting.com" class="inline-block px-10 py-5 bg-green-500 text-gray-900 rounded-full font-bold text-lg hover:bg-green-400 hover:scale-105 transition-all duration-300 shadow-2xl">
+                Get in Touch
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-3 bg-black text-gray-600 text-center">
+        <p class="text-xs text-gray-300">&copy; 2025 Verso Consulting, LLC. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('shadow-lg', 'py-3');
+                navbar.classList.remove('py-4');
+            } else {
+                navbar.classList.remove('shadow-lg', 'py-3');
+                navbar.classList.add('py-4');
+            }
+        });
+    </script>
+</body>
+</html>
